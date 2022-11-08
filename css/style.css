@@ -194,6 +194,21 @@ main{
     height: 60%;
 }
 
+#home__body main{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: calc(100vh - 230px)
+}
+
+#home__body main::-webkit-scrollbar {
+    display: none;
+}
+
+#home__body main section{
+    height:calc(100vh - 230px);
+    scroll-snap-align: start;
+}
+
 /* FOOTER */
 
 footer{
