@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chorme=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", user-scalable="0">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,900" type="text/css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="./assets/imagenes/egos-logo.png">
+    <title>Formulario de Contacto</title>
+</head>
+
+<body>
+
+
+<h2>Formulario de Contacto</h2>
+
+<form action="" method="" enctype="" > 
+    <fieldset>
+        <legend>Datos Personales</legend>
+            <input type="text" placeholder="Nombre y Apellido">
+            <input type="number" placeholder="Numero de DNI">
+            <input type="email" placeholder="Correo Electronico">
+            <select name="edad" id="">
+                <option value="" disabled selected>Indique su rango etario</option>
+                <option value="1">18-30</option>
+                <option value="2">31-60</option>
+                <option value="3">61-90</option>
+            </select>
+            <label for="masculino">Masculino</label>
+		    <input type="radio" name="gender" id="masculino" value="masculino">
+            <label for="femenino">Femenino</label>
+		    <input type="radio" name="gender" id="femenino" value="femenino">
+            <label for="otro">Otro</label>
+		    <input type="radio" name="gender" id="otro" value="otro">
+    </fieldset>
+
+    <fieldset>
+        <legend>Historia Personal</legend>
+            <textarea name="comment" id="" cols="70" rows="10" placeholder="Comentenos aquí toda la información sobre usted que considere revelante"></textarea>
+    </fieldset>
+
+    <input type="submit" value="Enviar">
+</form>
+
+<a href="../nuevo-index.html">Volver al Home</a>
+
+
+</body>
+</html>
