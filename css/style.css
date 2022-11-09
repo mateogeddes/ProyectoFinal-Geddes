@@ -207,6 +207,17 @@ main{
     scroll-snap-align: start;
 }
 
+/* MENU */
+
+#menu__categorias{
+    background-color: lightslategray;
+    width: 10vw;
+    height: calc(100vh - 230px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 /* FOOTER */
 
 footer{
