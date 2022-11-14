@@ -11,28 +11,43 @@
 
 <body>
     <header>
-        <a href="../index.html" class="logo">
-            <img src="../assets/images/egos-logo.png" alt="Ego's - Fuego & Cocina" class="logo__img">
-            <h1 class="logo__h1">Ego's - Fuego & Cocina</h1>
-        </a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./menu.html">Menu</a>
-                </li>
-                <li>
-                    <a href="./nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="./reservas.html">Reservas</a>
-                </li>
-                <li>
-                    <a href="./redes.html">Nuestras Redes</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-header-custom m-0 p-0 fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../assets/images/egos-logo-3.png" alt="Logo" class="d-inline-block align-text-top" id="header-logo-custom">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link fs-4 " aria-current="page" href="#" id="navbar-items-custom">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fs-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="navbar-items-custom">Menu</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#">Action</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here<a>
+                                <li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-4" href="#" id="navbar-items-custom">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-4" href="#" id="navbar-items-custom">Nosotros</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main id="socials__main">
