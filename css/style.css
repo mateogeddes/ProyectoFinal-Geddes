@@ -234,6 +234,10 @@ main{
     width: 65vw;
 }
 
+.carousel-item img{
+    height: calc(100vh - 226px);
+}
+
 /* FOOTER */
 
 footer{
