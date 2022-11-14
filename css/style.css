@@ -13,59 +13,16 @@ a{
 
 /* HEADER */
 
-header{
-    background-color: lightskyblue;
-    width: 100%;
-    height: 80px;
-    grid-area: header;
-    position: sticky;
-    top: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.bg-header-custom{
+    background-color:lightskyblue;
 }
 
-#nuevo-header{
-   background-color:yellow; 
+#header-logo-custom{
+    height: 100px;
 }
 
-.logo{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.logo__img{
-    height: 130px;
-}
-
-.logo__h1{
-    justify-content: center;
-    color: black;
-    align-items: center;
-    margin: 20px;
-}
-
-nav{
-    display: flex;
-    margin: 25px;
-}
-
-nav ul{
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-weight: bolder;
-    font-size: larger;
-}
-
-nav ul li{
-    margin: 15px;
-}
-
-nav ul li a{
-    color: black;
+#navbar-items-custom{
+    color: rgb(0, 0, 0);
 }
 
 /* GRID */
@@ -107,6 +64,7 @@ nav ul li a{
 }
 
 main{
+    margin-top: 110px;
     grid-area: main;
 }
 
