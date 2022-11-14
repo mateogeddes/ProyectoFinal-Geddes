@@ -15,6 +15,7 @@ a{
 
 .bg-header-custom{
     background-color:lightskyblue;
+    grid-area: header;
 }
 
 #header-logo-custom{
@@ -25,46 +26,9 @@ a{
     color: rgb(0, 0, 0);
 }
 
-/* GRID */
-
-#home__body{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 130px 1fr 100px;
-    grid-row-gap: 0px;
-    grid-template-areas: 
-    "header header header header"
-    "main main main main"
-    "footer footer footer footer"
-}
-
-
-#booking__body{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 130px 1fr 100px;
-    grid-row-gap: 0px;
-    grid-template-areas: 
-    "header header header header"
-    "main main main main"
-    "footer footer footer footer";
-}
-
-#booking__main{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-row-gap: 15px;
-    grid-column-gap: 15px;
-    grid-template-areas: 
-    "reservas eventos sugerencias"
-    "reservas eventos sugerencias"
-    "reservas delivery imagen";
-    padding: 15px;
-}
-
 main{
     margin-top: 110px;
+    margin-bottom: 100px;
     grid-area: main;
 }
 
@@ -87,11 +51,6 @@ main{
 #booking__imagen{
     grid-area: imagen;
 }
-
-/* RESERVAS */
-
-
-
 
 /* HOME */
 
@@ -118,12 +77,12 @@ main{
 }
 
 .home-section-center{
-    height: calc(100vh - 130px);
+    height: calc(100vh - 100px);
 }
 
 .home-section-left{
     background-color: lightsalmon;    
-    height: calc(100vh - 130px);
+    height: calc(100vh - 100px);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -131,7 +90,7 @@ main{
 
 .home-section-right{
     background-color: lightblue;
-    height: calc(100vh - 130px);
+    height: calc(100vh - 100px);
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -157,7 +116,7 @@ main{
 #home__body main{
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
-    height: calc(100vh - 230px)
+    height: calc(100vh - 210px)
 }
 
 #home__body main::-webkit-scrollbar {
@@ -165,7 +124,7 @@ main{
 }
 
 #home__body main section{
-    height:calc(100vh - 230px);
+    height:calc(100vh - 210px);
     scroll-snap-align: start;
 }
 
@@ -220,6 +179,7 @@ footer span{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0px 25px;
 }
 
 footer span div{
