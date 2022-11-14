@@ -213,29 +213,25 @@ main{
 #menu__main{
     display: flex;
     flex-direction: row;
+    height: calc(100vh - 226px);
 }
 
 #menu__categorias{
     background-color: rgb(119, 136, 153);
     width: 10vw;
-    height: calc(100vh - 214px);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
-    font-size: 20px;
 }
 
 #menu__productos{
     background-color: rgb(121, 151, 182);
     width: 25vw;
-    height: calc(100vh - 214px);
 }
 
 #menu__imagenes{
     background-color: rgb(104, 145, 185);
     width: 65vw;
-    height: calc(100vh - 214px);
 }
 /* FOOTER */
 
