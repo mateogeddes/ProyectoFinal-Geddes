@@ -16,8 +16,8 @@ main{
     margin-bottom: 10vh;
 }
 
-.bg-blue{
-    background-color: blue;
+.bg-royalblue{
+    background-color:royalblue;
     color: white;
 }
 
@@ -30,6 +30,9 @@ main{
     color: black;
 }
 
+.bg-lightsteelblue{
+    background-color: lightsteelblue;
+}
 .border-custom-1{
     border: 1px solid rgb(222, 226, 230);
     border-width: 1px;
@@ -137,7 +140,6 @@ main{
 }
 
 #menu__categorias{
-    background-color: rgb(119, 136, 153);
     width: 10vw;
     display: flex;
     flex-direction: column;
@@ -161,7 +163,7 @@ main{
 
 footer{
     width: 100%;
-    background-color: rgb(159, 241, 159);
+    background-color: lightskyblue;
     height: 10vh;
     display: flex;
     flex-direction: row;
