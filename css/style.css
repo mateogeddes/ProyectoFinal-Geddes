@@ -16,12 +16,23 @@ main{
     margin-bottom: 10vh;
 }
 
+.bg-blue{
+    background-color: blue;
+    color: white;
+}
+
 .bg-lightskyblue{
     background-color: lightskyblue;
 }
 
 .bg-lightblue{
     background-color: lightblue;
+    color: black;
+}
+
+.border-custom-1{
+    border: 1px solid rgb(222, 226, 230);
+    border-width: 1px;
 }
 
 /* HEADER */
@@ -134,7 +145,6 @@ main{
 }
 
 #menu__productos{
-    background-color: rgb(121, 151, 182);
     width: 25vw;
 }
 
