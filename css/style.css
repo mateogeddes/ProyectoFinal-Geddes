@@ -16,8 +16,15 @@ main{
     margin-bottom: 10vh;
 }
 
+/* CUSTOM CLASSES */
+
 .bg-royalblue{
     background-color:royalblue;
+    color: white;
+}
+
+.bg-royalblue2{
+    background-color:rgb(96, 131, 236);
     color: white;
 }
 
@@ -38,12 +45,23 @@ main{
     border-width: 1px;
 }
 
-/* HEADER */
+.vh-78{
+    height: 78vh;
+}
 
-.bg-header-custom{
-    background-color:lightskyblue;
+.header-height-custom{
     height: 12vh;
 }
+
+.footer-height-custom{
+    height: 10vh;
+}
+
+.img-w-50{
+    width: 50vh;
+}
+
+/* HEADER */
 
 #header-logo-custom{
     height: 10vh;
@@ -57,68 +75,9 @@ main{
 
 /* HOME */
 
-.home-title{
-    font-weight: 700;
-    font-size:xx-large;
-}
-
-.home-section{
-    display: flex;
-    flex-direction: column;
-}
-
-#home__egos{
-    background-color: lightblue;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#home__egos h2{
-    font-size: 100px;
-}
-
-.home-section-center{
-    height: 78vh;
-}
-
-.home-section-left{
-    background-color: lightsalmon;height: 78vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.home-section-right{
-    background-color: lightblue;
-    height: 78vh;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-}
-
-.home-section-left div{
-    margin: 0px 4%;
-}
-
-.home-section-right div{
-    margin: 0px 4%;
-    text-align: right;
-}
-
-.home-description{
-    margin: 40px 0px;
-}
-
-.home-img{
-    height: 60%;
-}
-
 #home__body main{
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
-    height: 78vh;
 }
 
 #home__body main::-webkit-scrollbar {
@@ -126,7 +85,6 @@ main{
 }
 
 #home__body main section{
-    height: 78vh;
     scroll-snap-align: start;
 }
 
@@ -163,7 +121,6 @@ main{
 
 footer{
     width: 100%;
-    background-color: lightskyblue;
     height: 10vh;
     display: flex;
     flex-direction: row;
