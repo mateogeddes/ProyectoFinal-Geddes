@@ -16,6 +16,10 @@ main{
     margin-bottom: 10vh;
 }
 
+.img__square{
+    max-width: 500px;
+}
+
 /* CUSTOM CLASSES */
 
 .bg-royalblue{
