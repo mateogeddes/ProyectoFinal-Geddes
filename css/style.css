@@ -41,7 +41,7 @@ li{
 
 @media (max-width: 991px){
     .main-height-custom{
-    height: 73vh;
+    height: 75vh;
     }
     
     .header-height-custom{
@@ -49,7 +49,7 @@ li{
     }
     
     .footer-height-custom{
-        height: 15vh;
+        height: 13vh;
     }
         
 }
