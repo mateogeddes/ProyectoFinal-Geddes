@@ -23,8 +23,36 @@ main{
 li{
     list-style-type: none;
 }
+
+
 /* CUSTOM CLASSES */
 
+.main-height-custom{
+    height: 78vh;
+}
+
+.header-height-custom{
+    height: 12vh;
+}
+
+.footer-height-custom{
+    height: 10vh;
+}
+
+@media (max-width: 991px){
+    .main-height-custom{
+    height: 73vh;
+    }
+    
+    .header-height-custom{
+        height: 12vh;
+    }
+    
+    .footer-height-custom{
+        height: 15vh;
+    }
+        
+}
 .bg-royalblue{
     background-color:royalblue;
     color: white;
@@ -50,18 +78,6 @@ li{
 .border-custom-1{
     border: 1px solid rgb(222, 226, 230);
     border-width: 1px;
-}
-
-.vh-78{
-    height: 78vh;
-}
-
-.header-height-custom{
-    height: 12vh;
-}
-
-.footer-height-custom{
-    height: 10vh;
 }
 
 .img-w-50{
@@ -123,6 +139,8 @@ li{
 .carousel-item img{
     height: 78vh;
 }
+/* modificar este vh */
+
 
 /* FOOTER */
 
