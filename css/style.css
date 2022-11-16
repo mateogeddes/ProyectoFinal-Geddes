@@ -49,13 +49,18 @@ li{
     }
     
     .img__custom{
-        width: 50%;
+        width: 75%;
     }
 }
 
 @media (min-width: 992px){
     .header-height-custom{
         height: 12vh;
+    }
+}
+@media (max-width: 767px){
+    .img__custom{
+        width: 60%;
     }
 }
 
