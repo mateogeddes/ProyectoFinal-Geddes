@@ -35,32 +35,28 @@ li{
     height: 10vh;
 }
 
-@media (max-width: 991px){
+@media (max-width: 767px){
     main{
         margin-top: 11vh;
-        margin-bottom: 13vh;
+        margin-bottom: 12vh;
     }
     .main-height-custom{
-    height: 76vh;
+    height: 77vh;
     }
     
     .footer-height-custom{
-        height: 13vh;
+        height: 12vh;
     }
     
     .img__custom{
-        width: 75%;
-    }
+        width: 60%;
+    }  
+
 }
 
-@media (min-width: 992px){
+@media (min-width: 768px){
     .header-height-custom{
         height: 12vh;
-    }
-}
-@media (max-width: 767px){
-    .img__custom{
-        width: 60%;
     }
 }
 
