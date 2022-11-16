@@ -16,8 +16,8 @@ main{
     margin-bottom: 10vh;
 }
 
-.img__square{
-    max-width: 500px;
+.img__custom{
+    width: 75%;
 }
 
 li{
@@ -31,28 +31,34 @@ li{
     height: 78vh;
 }
 
-.header-height-custom{
-    height: 12vh;
-}
-
 .footer-height-custom{
     height: 10vh;
 }
 
 @media (max-width: 991px){
-    .main-height-custom{
-    height: 75vh;
+    main{
+        margin-top: 11vh;
+        margin-bottom: 13vh;
     }
-    
-    .header-height-custom{
-        height: 12vh;
+    .main-height-custom{
+    height: 76vh;
     }
     
     .footer-height-custom{
         height: 13vh;
     }
-        
+    
+    .img__custom{
+        width: 50%;
+    }
 }
+
+@media (min-width: 992px){
+    .header-height-custom{
+        height: 12vh;
+    }
+}
+
 .bg-royalblue{
     background-color:royalblue;
     color: white;
