@@ -43,6 +43,10 @@ li{
     width: 60vw;
 }
 
+.sticky-custom{
+    position: sticky;
+}
+
 @media (max-width: 767px){
     main{
         margin-top: 11vh;
@@ -181,6 +185,3 @@ li{
     border-bottom-right-radius: 0.375rem;
 }
 
-.sticky-custom{
-    position: sticky;
-}
