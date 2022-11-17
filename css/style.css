@@ -48,12 +48,14 @@ li{
 }
 
 @media (max-width: 767px){
+
     main{
-        margin-top: 11vh;
+        margin-top: 10.5vh;
         margin-bottom: 12vh;
     }
+
     .main-height-custom{
-    height: 77vh;
+    height: 77.5vh;
     }
     
     .footer-height-custom{
