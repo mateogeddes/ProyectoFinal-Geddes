@@ -1,0 +1,11 @@
+main{
+    margin-top: 12vh;
+    margin-bottom: 10vh;
+}
+
+@media (max-width: 767px){
+    main{
+        margin-top: 10.5vh;
+        margin-bottom: 12vh;
+    }
+}

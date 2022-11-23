@@ -1,0 +1,12 @@
+#home__body main{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+#home__body main::-webkit-scrollbar {
+    display: none;
+}
+
+#home__body main section{
+    scroll-snap-align: start;
+}

@@ -1,0 +1,25 @@
+#menu__main{
+    display: flex;
+    flex-direction: row;
+    height: 78vh;
+}
+
+#menu__categorias{
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#menu__productos{
+    width: 25vw;
+}
+
+#menu__imagenes{
+    background-color: rgb(104, 145, 185);
+    width: 65vw;
+}
+
+.carousel-item img{
+    height: 78vh;
+}
