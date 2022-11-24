@@ -1,15 +1,21 @@
-#header-logo-custom{
-    height: 10vh;
-}
-
-.navbar-items-custom{
-    color: rgb(0, 0, 0);
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
 header{
+    height: $header_height;
     nav{
         background-color: $primary_color;
+        height: 100%;
+    }
+}
+
+#header-logo{
+    height: $header-logo_height;
+}
+
+#navbarNavDropdown{
+    ul{
+        li{
+            a{
+                color: rgb(0, 0, 0);
+            }
+        }
     }
 }

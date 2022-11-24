@@ -4,7 +4,7 @@
 //Base
 @import './base/colors.scss';
 @import './base/reset.scss';
-@import './base/typography.scss';
+@import './base/typo.scss';
 
 //Components
 
@@ -15,7 +15,11 @@
 //Layout
 
 @import './layout/footer.scss';
+@import './layout/general.scss';
 @import './layout/header.scss';
-@import './layout/home.scss';
 @import './layout/main.scss';
-@import './layout/menu.scss';
+
+//Views
+
+@import './views/home.scss';
+@import './views/menu.scss';
