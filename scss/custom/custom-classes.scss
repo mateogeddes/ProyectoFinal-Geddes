@@ -18,25 +18,3 @@
 .img-w-50{
     width: 50vh;
 }
-
-//Media Query
-
-@media (max-width: 767px){
-    .main-height-custom{
-    height: 77.5vh;
-    }
-    
-    .footer-height-custom{
-        height: 12vh;
-    }
-    
-    .img__custom{
-        width: 60%;
-    }
-}
-
-@media (min-width: 768px){
-    .header-height-custom{
-        height: 12vh;
-    }
-}

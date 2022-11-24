@@ -1,0 +1,32 @@
+//Media Query
+
+@media (max-width: 767px){
+    header{
+        height: $header_height-r;
+        nav{
+            div{
+                div{
+                    ul{
+                        background-color: $fourth-color;
+                    }
+                }
+            }
+        }
+    }
+
+    #header-menu-dropdown{
+        background-color: $primary_color;
+    }
+
+    footer{
+        height: $footer_height-r;
+    }
+
+    .img__custom{
+        width: 60%;
+    }
+}
+
+@media (min-width: 768px){
+
+}

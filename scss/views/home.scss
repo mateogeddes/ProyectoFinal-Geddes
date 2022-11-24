@@ -1,12 +1,8 @@
-#home__body{
-    main{
-        scroll-snap-type: y mandatory;
-        overflow-y: scroll;
-        &::-webkit-scrollbar {
-            display: none;
-        }
-        section{
-            scroll-snap-align: start;
+#navbarNavDropdown{
+    ul{
+        align-items: center;
+        li{
+            width: 75%;
         }
     }
 }
