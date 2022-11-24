@@ -78,6 +78,9 @@ li {
   border-bottom-left-radius: 0.375rem;
   border-bottom-right-radius: 0.375rem; }
 
+footer {
+  background-color: #EA3434; }
+
 #header-logo-custom {
   height: 10vh; }
 
