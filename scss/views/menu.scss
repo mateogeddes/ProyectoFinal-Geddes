@@ -41,3 +41,28 @@
     border-bottom-left-radius: 0.375rem;
     border-bottom-right-radius: 0.375rem;
 }
+
+
+// NUEVO MENU
+
+.menu-title{
+    border: 1.5px black solid;
+    border-radius: 0.5rem;
+    background-color: $secondary_color;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu-item-title{
+    background-color: $terciary_color;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 18px;
+}
+
+.menu-item-desc{
+    padding: 0 18px;
+}

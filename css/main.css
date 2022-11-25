@@ -48,6 +48,11 @@ footer {
 .socials__logo {
   height: 5vh; }
 
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500; }
+
 header {
   height: 12vh; }
   header nav {
@@ -107,6 +112,25 @@ header {
 .btn-custom:last-of-type {
   border-bottom-left-radius: 0.375rem;
   border-bottom-right-radius: 0.375rem; }
+
+.menu-title {
+  border: 1.5px black solid;
+  border-radius: 0.5rem;
+  background-color: #E98035;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; }
+
+.menu-item-title {
+  background-color: #F8BE12;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px 18px; }
+
+.menu-item-desc {
+  padding: 0 18px; }
 
 @media (max-width: 767px) {
   header {
