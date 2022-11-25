@@ -117,5 +117,11 @@ header {
     background-color: #EA3434; }
   footer {
     height: 16vh; }
+    footer div {
+      height: 50%; }
   .img__custom {
     width: 60%; } }
+
+@media (min-width: 768px) {
+  footer div {
+    height: 100%; } }

@@ -20,6 +20,9 @@
 
     footer{
         height: $footer_height-r;
+        div{
+            height: 50%;
+        }
     }
 
     .img__custom{
@@ -28,5 +31,9 @@
 }
 
 @media (min-width: 768px){
-
+    footer{
+        div{
+            height: 100%;
+        }
+    }
 }
