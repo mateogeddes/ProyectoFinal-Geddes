@@ -72,6 +72,9 @@ header {
 .main-height-custom {
   height: 88vh; }
 
+.main-height-custom-2 {
+  height: 78vh; }
+
 #navbarNavDropdown ul {
   align-items: center; }
   #navbarNavDropdown ul li {
@@ -106,6 +109,21 @@ header {
 .carrousell-item img {
   width: 100%; }
 
+#nosotros-body {
+  background-image: url(../assets/images/egos.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.nosotros-card {
+  background-color: white;
+  color: black;
+  opacity: 50%; }
+  .nosotros-card h3 {
+    opacity: 100%; }
+  .nosotros-card p {
+    opacity: 100%; }
+
 @media (max-width: 767px) {
   header {
     height: 12vh; }
@@ -123,3 +141,11 @@ header {
 @media (min-width: 768px) {
   footer div {
     height: 100%; } }
+
+@media (min-width: 903px) {
+  #nosotros-body footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030; } }
