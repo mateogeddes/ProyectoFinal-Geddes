@@ -64,10 +64,17 @@ header {
 
 #navbarNavDropdown ul li a {
   color: black; }
+  #navbarNavDropdown ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.267); }
 
-#header-menu-dropdown {
+#header-menu-collapse {
   background-color: #EE5959;
-  border: 1.5px black solid; }
+  border: 1.5px black solid;
+  border-radius: 0.75rem; }
+  #header-menu-collapse li a {
+    text-decoration: none; }
+    #header-menu-collapse li a:hover {
+      background-color: rgba(0, 0, 0, 0.267); }
 
 .main-height-custom {
   height: 88vh; }
@@ -129,7 +136,7 @@ header {
     height: 12vh; }
     header nav div div ul {
       background-color: #EE5959; }
-  #header-menu-dropdown {
+  #header-menu-collapse {
     background-color: #EA3434; }
   footer {
     height: 16vh; }

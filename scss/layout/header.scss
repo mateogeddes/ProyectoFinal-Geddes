@@ -15,12 +15,24 @@ header{
         li{
             a{
                 color: rgb(0, 0, 0);
+                &:hover{
+                    background-color: rgba(0, 0, 0, 0.267);
+                }
             }
         }
     }
 }
 
-#header-menu-dropdown{
+#header-menu-collapse{
     background-color: $fourth_color;
     border: 1.5px black solid;
+    border-radius: 0.75rem;
+    li{
+        a{
+            text-decoration: none;
+            &:hover{
+                background-color: rgba(0, 0, 0, 0.267);
+            }
+        }
+    }
 }
