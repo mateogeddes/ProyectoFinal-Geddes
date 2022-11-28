@@ -77,42 +77,6 @@ header {
   #navbarNavDropdown ul li {
     width: 75%; }
 
-#menu__main {
-  display: flex;
-  flex-direction: row;
-  height: 78vh; }
-
-#menu__categorias {
-  width: 10vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around; }
-
-#menu__productos {
-  width: 25vw; }
-
-#menu__imagenes {
-  background-color: #6891b9;
-  width: 65vw; }
-
-.carousel-item img {
-  height: 78vh; }
-
-.btn-custom {
-  color: #212529;
-  border: 1px solid #dee2e6;
-  font-size: 1rem;
-  padding: 1rem 1.25rem; }
-
-.btn-custom:first-of-type {
-  border-bottom-left-radius: 0.375rem;
-  border-bottom-right-radius: 0.375rem;
-  border-top: 0; }
-
-.btn-custom:last-of-type {
-  border-bottom-left-radius: 0.375rem;
-  border-bottom-right-radius: 0.375rem; }
-
 .menu-title {
   border: 1.5px black solid;
   background-color: #E98035;
