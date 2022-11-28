@@ -115,7 +115,6 @@ header {
 
 .menu-title {
   border: 1.5px black solid;
-  border-radius: 0.5rem;
   background-color: #E98035;
   height: 5vh;
   display: flex;
@@ -125,12 +124,23 @@ header {
 
 .menu-item-title {
   background-color: #F8BE12;
+  border: 1.5px black solid;
+  border-radius: 0.5rem;
   cursor: pointer;
   width: 100%;
   padding: 10px 18px; }
 
 .menu-item-desc {
   padding: 0 18px; }
+
+.accordion-item {
+  border: none; }
+
+#carouselExampleCaptions {
+  max-width: 100%; }
+
+.carrousell-item img {
+  width: 100%; }
 
 @media (max-width: 767px) {
   header {

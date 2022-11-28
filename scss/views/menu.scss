@@ -47,7 +47,6 @@
 
 .menu-title{
     border: 1.5px black solid;
-    border-radius: 0.5rem;
     background-color: $secondary_color;
     height: 5vh;
     display: flex;
@@ -58,6 +57,8 @@
 
 .menu-item-title{
     background-color: $terciary_color;
+    border: 1.5px black solid;
+    border-radius: 0.5rem;
     cursor: pointer;
     width: 100%;
     padding: 10px 18px;
@@ -65,4 +66,18 @@
 
 .menu-item-desc{
     padding: 0 18px;
+}
+
+.accordion-item{
+    border: none;
+}
+
+#carouselExampleCaptions{
+    max-width: 100%;
+}
+
+.carrousell-item{
+    img{
+        width: 100%;
+    }
 }
