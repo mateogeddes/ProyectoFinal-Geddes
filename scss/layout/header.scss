@@ -13,11 +13,11 @@ header{
 #navbarNavDropdown{
     ul{
         li{
+            &:hover{
+                background-color: rgba(0, 0, 0, 0.267);
+            }
             a{
                 color: rgb(0, 0, 0);
-                &:hover{
-                    background-color: rgba(0, 0, 0, 0.267);
-                }
             }
         }
     }
@@ -28,11 +28,11 @@ header{
     border: 1.5px black solid;
     border-radius: 0.75rem;
     li{
+        &:hover{
+            background-color: rgba(0, 0, 0, 0.267);
+        }
         a{
-            text-decoration: none;
-            &:hover{
-                background-color: rgba(0, 0, 0, 0.267);
-            }
+            text-decoration: none;   
         }
     }
 }
