@@ -44,6 +44,10 @@ li {
 footer {
   background-color: #EA3434;
   height: 10vh; }
+  footer div {
+    color: black; }
+    footer div div a:hover {
+      color: black; }
 
 .socials__logo {
   height: 5vh; }
@@ -63,19 +67,10 @@ header {
   height: 10vh; }
 
 #navbarNavDropdown ul li:hover {
-  background-color: rgba(0, 0, 0, 0.267); }
+  background-color: rgba(0, 0, 0, 0.1); }
 
 #navbarNavDropdown ul li a {
   color: black; }
-
-#header-menu-collapse {
-  background-color: #EE5959;
-  border: 1.5px black solid;
-  border-radius: 0.75rem; }
-  #header-menu-collapse li:hover {
-    background-color: rgba(0, 0, 0, 0.267); }
-  #header-menu-collapse li a {
-    text-decoration: none; }
 
 .main-height-custom {
   height: 88vh; }
@@ -137,8 +132,6 @@ header {
     height: 12vh; }
     header nav div div ul {
       background-color: #EE5959; }
-  #header-menu-collapse {
-    background-color: #EA3434; }
   footer {
     height: 16vh; }
     footer div {

@@ -8,12 +8,12 @@ $footer-logo_height: 5vh;
 
 $header_height: 12vh;
 $main_height: 88vh;
-$main_height-2: 78vh;
 $footer_height: 10vh;
+$main_height-2: 100vh - $header_height - $footer_height;
 
 //Responsive
 $footer-logo_height-r: 5vh;
 
 $header_height-r: 12vh;
-$main_height-r: 88vh;
+$main_height-r: 85vh;
 $footer_height-r: 16vh;

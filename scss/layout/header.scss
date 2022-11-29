@@ -14,25 +14,11 @@ header{
     ul{
         li{
             &:hover{
-                background-color: rgba(0, 0, 0, 0.267);
+                background-color: rgba(0, 0, 0, 0.1);
             }
             a{
                 color: rgb(0, 0, 0);
             }
-        }
-    }
-}
-
-#header-menu-collapse{
-    background-color: $fourth_color;
-    border: 1.5px black solid;
-    border-radius: 0.75rem;
-    li{
-        &:hover{
-            background-color: rgba(0, 0, 0, 0.267);
-        }
-        a{
-            text-decoration: none;   
         }
     }
 }

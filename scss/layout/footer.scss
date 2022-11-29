@@ -1,6 +1,16 @@
 footer{
     background-color: $primary_color;
     height: $footer_height;
+    div{
+        color: black;
+        div{
+            a{
+                &:hover{
+                    color: black;
+                }
+            }
+        }
+    }
 }
 
 .socials__logo{
