@@ -87,7 +87,7 @@ header {
   #navbarNavDropdown ul li {
     width: 75%; }
 
-.menu-title {
+#bodyMenu #mainMenu #accordionMenu section .menu-title {
   border: 1.5px black solid;
   background-color: #E98035;
   height: 5vh;
@@ -96,25 +96,29 @@ header {
   justify-content: center;
   width: 100%; }
 
-.menu-item-title {
+#bodyMenu #mainMenu #accordionMenu section .menu-item-title {
   background-color: #F8BE12;
   border: 1.5px black solid;
   border-radius: 0.5rem;
   cursor: pointer;
   width: 100%;
-  padding: 10px 18px; }
+  padding: 10px 18px;
+  color: black; }
 
-.menu-item-desc {
-  padding: 0 18px; }
-
-.accordion-item {
+#bodyMenu #mainMenu #accordionMenu section .accordion-item {
   border: none; }
 
-#carouselExampleCaptions {
-  max-width: 100%; }
+#bodyMenu #mainMenu #accordionMenu section .menu-item-desc {
+  padding: 10px 22px; }
 
-.carrousell-item img {
+#bodyMenu #mainMenu #cardsMenu .card .card-header {
+  font-weight: bold; }
+
+#bodyMenu #mainMenu #cardsMenu .card .card-body .cards-menu-img {
   width: 100%; }
+
+#bodyMenu #mainMenu #cardsMenu .card .card-body .card-title {
+  margin: 0.5rem 0.5rem; }
 
 #nosotros-body {
   background-image: url(../assets/images/egos.jpg);
