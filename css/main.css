@@ -72,6 +72,10 @@ header {
 #navbarNavDropdown ul li a {
   color: black; }
 
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding: 0 1rem; } }
+
 .main-height-custom {
   height: 88vh; }
 
