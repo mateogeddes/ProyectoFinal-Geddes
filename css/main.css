@@ -120,11 +120,13 @@ header {
 #bodyMenu #mainMenu #cardsMenu .card .card-body .card-title {
   margin: 0.5rem 0.5rem; }
 
-#nosotros-body {
+#bodyNosotros {
   background-image: url(../assets/images/egos.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+  #bodyNosotros #mainNosotros {
+    height: 78vh; }
 
 .nosotros-card {
   background-color: white;

@@ -1,8 +1,11 @@
-#nosotros-body{
+#bodyNosotros{
     background-image: url(../assets/images/egos.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    #mainNosotros{
+        height: $main_height-2;
+    }
 }
 
 .nosotros-card{
