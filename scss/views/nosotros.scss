@@ -5,17 +5,14 @@
     background-size: cover;
     #mainNosotros{
         height: $main_height-2;
+        .nosotros-container{
+            display: flex;
+            align-items: center;
+        }
     }
 }
 
 .nosotros-card{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.7);
     color: black;
-    opacity: 50%;
-    h3{
-        opacity: 100%;
-    }
-    p{
-        opacity: 100%;
-    }
 }
