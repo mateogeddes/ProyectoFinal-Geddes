@@ -1,6 +1,12 @@
+@keyframes bg-color {
+    0% {background-color: $secondary_color;}
+    50% {background-color: $terciary_color;}    
+    100% {background-color: $secondary_color;}
+}
+
 #bodyBeneficios{
     #mainBeneficios{
-        min-height: $main_height;
+        min-height: $main_height-2;
         background-color: $fourth_color;
         .discount-title{
             width: 100%;
@@ -12,19 +18,31 @@
             font-weight: 600;
             background-color: $secondary_color;
             border: black 2px solid;
+            margin-bottom: 10px;
+            animation-name: bg-color;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
         }
-        .discount-subtitle{
-            background-color: $terciary_color;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 60px;
-            font-size: large;
-            border: black 1px solid;
-            border-radius: 3rem;
-        }
-        .discount-desc{
-            height: 50px;
+        .discount-container{
+            text-align: center;
+            margin: 0 auto;
+            width: 75%;
+            .discount-subtitle{
+                background-color: $terciary_color;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 60px;
+                font-size: large;
+                border: black 1px solid;
+                border-radius: 3rem;
+            }
+            .discount-desc{
+                margin: 15px 0px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
         }
     }
 }

@@ -159,8 +159,16 @@ header {
     left: 0;
     z-index: 1030; } }
 
+@keyframes bg-color {
+  0% {
+    background-color: #E98035; }
+  50% {
+    background-color: #F8BE12; }
+  100% {
+    background-color: #E98035; } }
+
 #bodyBeneficios #mainBeneficios {
-  min-height: 88vh;
+  min-height: 78vh;
   background-color: #EE5959; }
   #bodyBeneficios #mainBeneficios .discount-title {
     width: 100%;
@@ -171,15 +179,26 @@ header {
     font-size: x-large;
     font-weight: 600;
     background-color: #E98035;
-    border: black 2px solid; }
-  #bodyBeneficios #mainBeneficios .discount-subtitle {
-    background-color: #F8BE12;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 60px;
-    font-size: large;
-    border: black 1px solid;
-    border-radius: 3rem; }
-  #bodyBeneficios #mainBeneficios .discount-desc {
-    height: 50px; }
+    border: black 2px solid;
+    margin-bottom: 10px;
+    animation-name: bg-color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; }
+  #bodyBeneficios #mainBeneficios .discount-container {
+    text-align: center;
+    margin: 0 auto;
+    width: 75%; }
+    #bodyBeneficios #mainBeneficios .discount-container .discount-subtitle {
+      background-color: #F8BE12;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 60px;
+      font-size: large;
+      border: black 1px solid;
+      border-radius: 3rem; }
+    #bodyBeneficios #mainBeneficios .discount-container .discount-desc {
+      margin: 15px 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
