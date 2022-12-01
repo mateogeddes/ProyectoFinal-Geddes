@@ -32,14 +32,21 @@
             .card{
                 .card-header{
                     font-weight: bold;
+                    background-color: $secondary_color;
                 }
                 .card-body{
+                    background-color: $terciary_color;
                     .cards-menu-img{
                         width: 100%;
                     }
                     .card-title{
                         margin: 0.5rem 0.5rem;
                     }
+                }
+                .card-footer{
+                    background-color: $fourth_color;
+                    columns: black;
+                    font-weight: 700;
                 }
             }
         }

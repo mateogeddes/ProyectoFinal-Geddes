@@ -112,13 +112,20 @@ header {
   padding: 10px 22px; }
 
 #bodyMenu #mainMenu #cardsMenu .card .card-header {
-  font-weight: bold; }
+  font-weight: bold;
+  background-color: #E98035; }
 
-#bodyMenu #mainMenu #cardsMenu .card .card-body .cards-menu-img {
-  width: 100%; }
+#bodyMenu #mainMenu #cardsMenu .card .card-body {
+  background-color: #F8BE12; }
+  #bodyMenu #mainMenu #cardsMenu .card .card-body .cards-menu-img {
+    width: 100%; }
+  #bodyMenu #mainMenu #cardsMenu .card .card-body .card-title {
+    margin: 0.5rem 0.5rem; }
 
-#bodyMenu #mainMenu #cardsMenu .card .card-body .card-title {
-  margin: 0.5rem 0.5rem; }
+#bodyMenu #mainMenu #cardsMenu .card .card-footer {
+  background-color: #EE5959;
+  columns: black;
+  font-weight: 700; }
 
 #bodyNosotros {
   background-image: url(../assets/images/egos.jpg);
