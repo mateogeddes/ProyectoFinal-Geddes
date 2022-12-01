@@ -4,6 +4,12 @@
     100% {background-color: $secondary_color;}
 }
 
+@keyframes bg-color-2 {
+    0% {background-color: $terciary_color;}
+    50% {background-color: $secondary_color;}
+    100% {background-color: $terciary_color;}
+}
+
 #bodyBeneficios{
     #mainBeneficios{
         min-height: $main_height-2;
@@ -36,6 +42,9 @@
                 font-size: large;
                 border: black 1px solid;
                 border-radius: 3rem;
+                animation-name: bg-color-2;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
             }
             .discount-desc{
                 margin: 15px 0px;
