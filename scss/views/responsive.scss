@@ -26,6 +26,12 @@
     }
 }
 
+@media (min-width: 500px){
+    #mainNosotros{
+        height: $main_height-2;
+    }
+}
+
 @media (min-width: 768px){
     footer{
         div{
