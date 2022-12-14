@@ -142,36 +142,6 @@ header {
   background-color: rgba(255, 255, 255, 0.7);
   color: black; }
 
-@media (max-width: 767px) {
-  header {
-    height: 12vh; }
-    header nav div div ul {
-      background-color: #EE5959; }
-  footer {
-    height: 16vh; }
-    footer div {
-      height: 50%; }
-  .img__custom {
-    width: 60%; } }
-
-@media (min-width: 500px) {
-  #mainNosotros {
-    height: 78vh; } }
-
-@media (min-width: 768px) {
-  footer div {
-    height: 100%; }
-  #mainBeneficios .discount-container {
-    width: 100%; } }
-
-@media (min-width: 903px) {
-  #nosotros-body footer {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1030; } }
-
 @keyframes bg-color {
   0% {
     background-color: #E98035; }
@@ -207,9 +177,7 @@ header {
     animation-iteration-count: infinite; }
   #bodyBeneficios #mainBeneficios .discount-container {
     text-align: center;
-    margin: 0 auto;
-    width: 75%;
-    min-width: 255px; }
+    margin: 0 auto; }
     #bodyBeneficios #mainBeneficios .discount-container .discount-subtitle {
       background-color: #F8BE12;
       display: flex;
@@ -227,3 +195,44 @@ header {
       display: flex;
       align-items: center;
       justify-content: center; }
+  #bodyBeneficios #mainBeneficios #discount-container-1 {
+    width: 75%; }
+
+@media (min-width: 500px) {
+  #mainNosotros {
+    height: 78vh; } }
+
+@media (max-width: 767px) {
+  header {
+    height: 12vh; }
+    header nav div div ul {
+      background-color: #EE5959; }
+  footer {
+    height: 16vh; }
+    footer div {
+      height: 50%; }
+  .img__custom {
+    width: 60%; }
+  #mainBeneficios #discount-container-2 {
+    width: 75%; } }
+
+@media (min-width: 768px) and (max-width: 1050px) {
+  #mainBeneficios #discount-container-2 {
+    width: 100%; } }
+
+@media (min-width: 768px) {
+  footer div {
+    height: 100%; } }
+
+@media (min-width: 903px) {
+  #nosotros-body footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030; } }
+
+@media (min-width: 1050px) {
+  #mainBeneficios #discount-container-2 {
+    width: 80%;
+    min-width: 350px; } }

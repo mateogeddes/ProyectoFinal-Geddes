@@ -32,8 +32,6 @@
         .discount-container{
             text-align: center;
             margin: 0 auto;
-            width: 75%;
-            min-width: 255px;
             .discount-subtitle{
                 background-color: $terciary_color;
                 display: flex;
@@ -53,6 +51,9 @@
                 align-items: center;
                 justify-content: center;
             }
+        }
+        #discount-container-1{
+            width: 75%;
         }
     }
 }
