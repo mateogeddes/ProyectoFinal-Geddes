@@ -160,7 +160,9 @@ header {
 
 @media (min-width: 768px) {
   footer div {
-    height: 100%; } }
+    height: 100%; }
+  #mainBeneficios .discount-container {
+    width: 100%; } }
 
 @media (min-width: 903px) {
   #nosotros-body footer {
@@ -206,7 +208,8 @@ header {
   #bodyBeneficios #mainBeneficios .discount-container {
     text-align: center;
     margin: 0 auto;
-    width: 75%; }
+    width: 75%;
+    min-width: 255px; }
     #bodyBeneficios #mainBeneficios .discount-container .discount-subtitle {
       background-color: #F8BE12;
       display: flex;
