@@ -229,6 +229,8 @@ header {
       margin: 20px 60px; }
       #mainContacto .contacto-section .cardContactoMap img {
         width: 15%; }
+      #mainContacto .contacto-section .cardContactoMap a {
+        padding-bottom: 10px; }
       #mainContacto .contacto-section .cardContactoMap #map-location {
         border: 0;
         height: 30vh;
