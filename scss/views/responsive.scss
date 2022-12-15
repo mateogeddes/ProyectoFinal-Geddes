@@ -1,10 +1,5 @@
 //Media Query
 
-@media (min-width: 500px){
-    #mainNosotros{
-        height: $main_height-2;
-    }
-}
 @media (max-width: 767px){
     header{
         height: $header_height-r;
@@ -54,6 +49,9 @@
         div{
             height: 100%;
         }
+    }
+    #mainNosotros{
+        height: $main_height;
     }
 }
 @media (min-width: 903px){

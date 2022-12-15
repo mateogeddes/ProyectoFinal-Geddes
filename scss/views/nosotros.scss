@@ -1,17 +1,26 @@
 #bodyNosotros{
-    background-image: url(../assets/images/egos.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: $secondary_color;
     #mainNosotros{
-        .nosotros-container{
+        min-height: $main-height-2;
+        .nosotrosContainer{
             display: flex;
             align-items: center;
+            .nosotrosCard{
+                background-color: rgba(255, 255, 255, 0.7);
+                color: black;
+                .nosotrosTitle{
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    font-size: 32px;
+                    text-align: center;
+                }
+                .nosotrosDesc{
+                    text-align: center;
+                }
+                img{
+                    width: 100%;
+                }
+            }
         }
     }
-}
-
-.nosotros-card{
-    background-color: rgba(255, 255, 255, 0.7);
-    color: black;
 }
