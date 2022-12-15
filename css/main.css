@@ -245,7 +245,7 @@ header {
       display: flex;
       align-items: center; }
       #bodyNosotros #mainNosotros .nosotrosContainer .nosotrosCard {
-        background-color: rgba(255, 255, 255, 0.7);
+        background-color: #F8BE12;
         color: black; }
         #bodyNosotros #mainNosotros .nosotrosContainer .nosotrosCard .nosotrosTitle {
           text-transform: uppercase;
