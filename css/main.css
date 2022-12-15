@@ -129,19 +129,6 @@ header {
   columns: black;
   font-weight: 700; }
 
-#bodyNosotros {
-  background-image: url(../assets/images/egos.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-  #bodyNosotros #mainNosotros .nosotros-container {
-    display: flex;
-    align-items: center; }
-
-.nosotros-card {
-  background-color: rgba(255, 255, 255, 0.7);
-  color: black; }
-
 @keyframes bg-color {
   0% {
     background-color: #E98035; }
@@ -197,6 +184,55 @@ header {
       justify-content: center; }
   #bodyBeneficios #mainBeneficios #discount-container-1 {
     width: 75%; }
+
+#mainContacto a {
+  text-decoration: none; }
+
+#mainContacto #contacto-title {
+  font-size: 35px;
+  padding: 50px 0px;
+  text-transform: uppercase; }
+
+#mainContacto #contacto-section {
+  padding: 50px 0px; }
+  #mainContacto #contacto-section .cardContacto {
+    border: 2px solid black;
+    border-radius: 2rem;
+    width: 28vw;
+    min-height: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center; }
+    #mainContacto #contacto-section .cardContacto img {
+      width: 30%;
+      align-self: center; }
+    #mainContacto #contacto-section .cardContacto .cardTitle {
+      font-size: 25px;
+      align-self: center;
+      text-transform: uppercase;
+      padding: 15px 0px; }
+    #mainContacto #contacto-section .cardContacto .cardDesc {
+      align-self: center;
+      padding-bottom: 10px; }
+
+#mainContacto #map-location {
+  border: 0;
+  height: 30vh; }
+
+#bodyNosotros {
+  background-image: url(../assets/images/egos.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #bodyNosotros #mainNosotros .nosotros-container {
+    display: flex;
+    align-items: center; }
+
+.nosotros-card {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: black; }
 
 @media (min-width: 500px) {
   #mainNosotros {
