@@ -219,13 +219,16 @@ header {
         font-size: 25px;
         text-transform: uppercase;
         padding: 15px 0px;
-        display: inline-flex; }
+        display: inline-flex;
+        font-weight: 800; }
       #mainContacto .contacto-section .cardContacto .cardDesc {
         display: inline-flex;
         padding-bottom: 10px; }
     #mainContacto .contacto-section .cardContactoMap {
       width: 686px;
       margin: 20px 60px; }
+      #mainContacto .contacto-section .cardContactoMap img {
+        width: 15%; }
       #mainContacto .contacto-section .cardContactoMap #map-location {
         border: 0;
         height: 30vh;

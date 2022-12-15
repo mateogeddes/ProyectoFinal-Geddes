@@ -37,6 +37,7 @@
                 text-transform: uppercase;
                 padding: 15px 0px;
                 display: inline-flex;
+                font-weight: 800;
             }
             .cardDesc{
                 display: inline-flex;
@@ -44,6 +45,9 @@
             }
         }
         .cardContactoMap{
+            img{
+                width: 15%;
+            }
             width: 686px;
             margin: 20px 60px;
             #map-location{
