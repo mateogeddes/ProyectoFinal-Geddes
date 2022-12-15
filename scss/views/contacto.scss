@@ -17,6 +17,7 @@
         flex-direction: row;
         justify-content: space-evenly;
         flex-wrap: wrap;
+        align-content: center;
         .cardContacto{
             background-color: $terciary_color;
             border: 2px solid black;

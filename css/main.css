@@ -200,7 +200,8 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    align-content: center; }
     #mainContacto .contacto-section .cardContacto {
       background-color: #F8BE12;
       border: 2px solid black;
@@ -256,6 +257,10 @@ header {
         #bodyNosotros #mainNosotros .nosotrosContainer .nosotrosCard img {
           width: 100%; }
 
+@media (max-width: 600px) {
+  #mainContacto .contacto-section .cardContacto {
+    width: 75vw; } }
+
 @media (max-width: 767px) {
   header {
     height: 12vh; }
@@ -273,7 +278,7 @@ header {
     flex-direction: column;
     align-items: center; }
     #mainContacto .contacto-section .cardContactoMap {
-      width: 343px; } }
+      width: 75vw; } }
 
 @media (min-width: 768px) and (max-width: 1050px) {
   #mainBeneficios #discount-container-2 {
